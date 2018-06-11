@@ -1,5 +1,5 @@
-# VLC-Arc-Dark
-  Arc Dark skin for [VLC](http://www.videolan.org/vlc/)
+# VLC-Arc-Dark-Flatabulous
+  Arc Dark skin for [VLC](http://www.videolan.org/vlc/) ;\
   This theme is a fork of varlesh's Arc-Dark VLC theme, it differs with window button styles
 
 ![Screenshot](preview.png)
