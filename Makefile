@@ -6,8 +6,10 @@ all:
 install: local
 
 clear:
-	$(RM) $(INSTALLDIR)/Arc-Dark-Flatabulous.vlt
+	$(RM) $(INSTALLDIR)/Arc-Dark-Flatabulous-left.vlt
+	$(RM) $(INSTALLDIR)/Arc-Dark-Flatabulous-right.vlt
 local:
-	find Arc-Dark-Flatabulous.vlt -type f -exec install -Dm644 '{}' "$(INSTALLDIR)/{}" \;
+	find Arc-Dark-Flatabulous-left.vlt -type f -exec install -Dm644 '{}' "$(INSTALLDIR)/{}" \;
+	find Arc-Dark-Flatabulous-right.vlt -type f -exec install -Dm644 '{}' "$(INSTALLDIR)/{}" \;
 
 uninstall: clear
